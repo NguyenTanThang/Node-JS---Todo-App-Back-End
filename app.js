@@ -53,8 +53,10 @@ app.use(function(err, req, res, next) {
   res.send('Error');
 });
 
+/*
 app.listen(5000, () => {
   console.log("Server is now running on port 5000");
 })
+*/
 
 module.exports = app;
