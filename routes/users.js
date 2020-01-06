@@ -63,7 +63,6 @@ router.post("/signup", (req, res) => {
         new User({
             facebook_id,
             username,
-            email,
             imageURL
           })
           .save()
